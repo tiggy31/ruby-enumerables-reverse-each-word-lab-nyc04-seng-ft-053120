@@ -5,7 +5,7 @@ def reverse_each_word (str)
    
 str.split.each { |word| new_string << word.reverse}
     
-new_string.join(" ")
+new_string << join(" ")
 binding.pry
 puts "hello"
 end
